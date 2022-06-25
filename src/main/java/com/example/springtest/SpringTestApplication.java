@@ -40,6 +40,9 @@ private static EmployeeMapperImpl employeeMapper = new EmployeeMapperImpl();
         System.out.println(employeeDto.getFullName());
         System.out.println(employeeListDto.getEmployeeList().toString());
         System.out.println(testExDto.getFullNumber());
+        var item = TestEnum.parseValue("ENUM1_IOS") ;
+
+        System.out.println(item);
 
 
 
